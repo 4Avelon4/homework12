@@ -1091,7 +1091,7 @@ body {
   }
 
   .about__left {
-    background-image: url(../img/about-small.jpg);
+    background-image: url(../img/about-medium.jpg);
     min-height: 640px;
     margin-bottom: 32px;
   }
@@ -1306,6 +1306,10 @@ body {
   }
 
   /* hero */
+  .hero__container {
+    margin-bottom: 61px;
+  }
+
   .hero__banner {
     padding: 61px 22px;
     padding-bottom: 60px;
@@ -1336,5 +1340,23 @@ body {
     letter-spacing: 0.007rem;
     text-align: center;
     padding: 13px 29px 12px 28px;
+  }
+
+  .about__title {
+    font-size: 24px;
+    line-height: 29px;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .about__descr {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 13px;
+  }
+
+  .about__left {
+    background-image: url(../img/about-small.png);
+    min-height: 200px;
   }
 }
