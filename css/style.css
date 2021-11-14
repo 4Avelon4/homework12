@@ -1302,6 +1302,39 @@ body {
   }
 
   .logo__descr {
-    padding-top: 0;
+    padding-top: 1px;
+  }
+
+  /* hero */
+  .hero__banner {
+    padding: 61px 22px;
+    padding-bottom: 60px;
+    justify-content: start;
+    align-items: center;
+    background-image: url(../img/hero-1-extra-small.jpg);
+    min-height: 308px;
+  }
+
+  .hero__title {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 0.39rem;
+  }
+
+  .hero__descr {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.006rem;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .hero__btn {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.007rem;
+    text-align: center;
+    padding: 13px 29px 12px 28px;
   }
 }
