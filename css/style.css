@@ -1066,7 +1066,7 @@ body {
     padding: 163px 78px;
     padding-top: 164px;
     padding-bottom: 161px;
-    background-image: url(../img/hero-1-medium.jpg);
+    background-image: url(../img/hero-1-1024.jpg);
   }
 
   .hero__title {
@@ -1097,7 +1097,7 @@ body {
   }
 
   .about__left {
-    background-image: url(../img/about-medium.jpg);
+    background-image: url(../img/about-1024.jpg);
     min-height: 640px;
     margin-bottom: 32px;
   }
@@ -1127,7 +1127,7 @@ body {
 
   .tab-content__image {
     flex-basis: 47.15%;
-    background-image: url(../img/how-we-work-1-medium.jpg);
+    background-image: url(../img/how-we-work-1-1024.jpg);
   }
 
   /* questions */
@@ -1206,7 +1206,7 @@ body {
   .hero__banner {
     padding: 162px 40px;
     padding-top: 166px;
-    background-image: url(../img/hero-1-small.jpg);
+    background-image: url(../img/hero-1-768.jpg);
   }
 
   .hero__title {
@@ -1259,11 +1259,11 @@ body {
   }
 
   .about__icon-top {
-    background-image: url(../img/aside-1-medium.svg);
+    background-image: url(../img/aside-1-768.svg);
   }
 
   .about__icon-bottom {
-    background-image: url(../img/aside-2-medium.svg);
+    background-image: url(../img/aside-2-768.svg);
   }
 
   .about-text__title {
@@ -1286,7 +1286,7 @@ body {
   }
 
   .tab-content__image {
-    background-image: url(../img/how-we-work-1-small.jpg);
+    background-image: url(../img/how-we-work-1-768.jpg);
     min-height: 284px;
     margin-bottom: 39px;
   }
@@ -1339,7 +1339,7 @@ body {
     padding-bottom: 60px;
     justify-content: start;
     align-items: center;
-    background-image: url(../img/hero-1-extra-small.jpg);
+    background-image: url(../img/hero-1-320.jpg);
     min-height: 308px;
   }
 
@@ -1402,7 +1402,7 @@ body {
 
   .about__img {
     display: block;
-    background-image: url(../img/about-small.png);
+    background-image: url(../img/about-320.png);
     min-width: 290px;
     min-height: 200px;
     margin-bottom: 9px;
@@ -1467,11 +1467,11 @@ body {
   }
 
   .about__icon-top {
-    background-image: url(../img/aside-1-small.svg);
+    background-image: url(../img/aside-1-320.svg);
   }
 
   .about__icon-bottom {
-    background-image: url(../img/aside-2-small.svg);
+    background-image: url(../img/aside-2-320.svg);
   }
 
   .about__text {
@@ -1559,7 +1559,7 @@ body {
   }
 
   .tab-content__image {
-    background-image: url(../img/how-we-work-1-extra-small.jpg);
+    background-image: url(../img/how-we-work-1-320.jpg);
     min-height: 160px;
     margin-bottom: 17px;
   }
