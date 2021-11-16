@@ -1635,6 +1635,44 @@ body {
     padding-top: 30px;
   }
 
+  .footer__descr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__left {
+    max-width: 100%;
+  }
+
+  .footer__logo {
+    padding-left: 0.08rem;
+    margin-bottom: 0.51rem;
+  }
+
+  .footer-logo__img {
+    margin-right: 5px;
+  }
+
+  .logo__descr {
+    padding-top: 2px;
+  }
+
+  .social__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social__item:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  .form {
+    margin-bottom: 0.81rem;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #595959;
+  }
+
   .form__title {
     font-size: 24px;
     line-height: 29px;
@@ -1649,9 +1687,21 @@ body {
 
   .form__textarea {
     width: 290px;
+    margin-bottom: 25px;
   }
 
   .form__bottom {
     flex-direction: column;
+  }
+
+  .form__btn {
+    margin-right: 0;
+    margin-bottom: 12px;
+    padding: 13px 28px 12px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .form__label {
+    padding-top: 0;
   }
 }
