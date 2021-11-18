@@ -416,7 +416,7 @@ body {
 .about-text__title {
   margin: 0;
   margin-bottom: 6px;
-  max-width: 100%;
+  max-width: 454px;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -425,7 +425,7 @@ body {
 }
 
 .about-text__descr {
-  max-width: 90%;
+  max-width: 450px;
   font-size: 16px;
   line-height: 32px;
   color: var(--color-text);
@@ -447,7 +447,7 @@ body {
 }
 
 .tabs__item, .tabs-item__btn {
-  max-width: 150px;
+  max-width: 100px;
 }
 
 .tabs-item__btn {
@@ -525,7 +525,7 @@ body {
 .btn-left__link,
 .btn-right__link {
   display: inline-block;
-  max-width: 150px;
+  max-width: 110px;
   padding-top: 1.27em;
   padding-bottom: 17px;
   font-size: 16px;
@@ -755,6 +755,8 @@ body {
 
 .footer__link {
   position: relative;
+  display: inline-block;
+  max-width: 270px;
   font-weight: 600;
   font-size: 18px;
   line-height: 36px;
@@ -1009,8 +1011,7 @@ body {
   }
 
   .form {
-    width: 555px;
-    padding-left: 5px;
+    padding-left: 0px;
   }
 
   .form__title {
@@ -1110,20 +1111,6 @@ body {
   .about__item {
     flex-direction: row;
   }
-
-  .about__text,
-  .about-text__descr {
-    max-width: 92%;
-  }
-
-  .form {
-    padding-left: 20px;
-    margin-right: 0;
-  }
-
-  .form__textarea {
-    width: 535px;
-  }
 }
 
 @media (max-width: 1024px) {
@@ -1134,7 +1121,6 @@ body {
 
   .hero__banner {
     padding: 163px 78px;
-    padding-top: 164px;
     padding-bottom: 161px;
     background-image: url(../img/hero-1-1024.jpg);
   }
@@ -1142,20 +1128,20 @@ body {
   .hero__title {
     font-size: 60px;
     line-height: 73px;
-    margin-bottom: 15px;
-    max-width: 680px;
+    margin-bottom: 14px;
   }
 
   .hero__descr {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.01rem;
-    max-width: 660px;
     margin-bottom: 58px;
   }
 
+  .hero__title,
+  .hero__descr,
   .hero__btn {
-    max-width: 660px;
+    max-width: 92%;
   }
 
   /* about */
@@ -1183,7 +1169,7 @@ body {
 
   .about__item {
     padding-left: 77px;
-    padding-bottom: 49px;
+    padding-bottom: 63px;
   }
 
   /* how we work */
@@ -1192,7 +1178,7 @@ body {
   }
 
   .tabs {
-    margin-bottom: 52px;
+    margin-bottom: 51px;
   }
 
   .tab-content__left {
@@ -1211,11 +1197,19 @@ body {
 
   /* questions */
   .questions__container {
-    margin-bottom: 81px;
+    margin-bottom: 80px;
   }
 
   .questions__title {
     margin-bottom: 29px;
+  }
+
+  .questions-item__text {
+    padding-top: 40px;
+    padding-bottom: 37px;
+    max-width: 82%;
+    font-size: 20px;
+    letter-spacing: -0.01rem;
   }
 
   .questions__item:nth-child(2n) .questions-item__text {
@@ -1232,23 +1226,65 @@ body {
     top: 37px;
   }
 
-  .questions-item__text {
-    max-width: 775px;
-    font-size: 20px;
+  /* Footer */
+  .footer__container {
+    justify-content: space-between;
+  }
+
+  .footer__logo {
+    margin-bottom: 0.77rem;
+  }
+
+  .footer-logo__img {
+    margin-right: 10px;
+  }
+
+  .footer__center {
+    width: 540px;
+    margin-right: 0px;
   }
 
   .form {
     padding-left: 0;
   }
 
-
-
-  .footer-logo__img {
-    margin-right: 10px;
+  .form__textarea {
+    width: 540px;
   }
+
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
+  .how-we-work__container {
+    margin-bottom: 84px;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+  }
+
+  .tab__content {
+    flex-direction: column-reverse;
+  }
+
+  .tab-content__left,
+  .tab-content__image {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .tab__descr {
+    letter-spacing: normal;
+  }
+
+  .tab-content__image {
+    background-image: url(../img/how-we-work-1-768.jpg);
+    min-height: 284px;
+    margin-bottom: 39px;
+  }
+
   .footer__container {
     flex-direction: column-reverse;
     padding-left: 50px;
@@ -1361,31 +1397,6 @@ body {
     letter-spacing: -0.011em;
   }
 
-  /* how we work */
-  .how-we-work__container {
-    margin-bottom: 84px;
-  }
-
-  .tabs {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 41px;
-  }
-
-  .tab__content {
-    flex-direction: column-reverse;
-  }
-
-  .tab__descr {
-    letter-spacing: normal;
-  }
-
-  .tab-content__image {
-    background-image: url(../img/how-we-work-1-768.jpg);
-    min-height: 284px;
-    margin-bottom: 39px;
-  }
-
   /* questions */
   .questions__container {
     margin-bottom: 80px;
@@ -1407,7 +1418,7 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 550px) {
   .container {
     padding: 0 15px;
   }
@@ -1438,7 +1449,7 @@ body {
   .hero__banner {
     padding: 61px 22px;
     padding-bottom: 60px;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
     background-image: url(../img/hero-1-320.jpg);
     min-height: 308px;
