@@ -830,7 +830,6 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 120px;
-  max-width: 690px;
 }
 
 .form__title {
@@ -874,7 +873,7 @@ body {
 }
 
 .form__textarea {
-  width: 570px;
+  width: 100%;
   height: 150px;
   resize: none;
   background: #414141;
@@ -1016,10 +1015,6 @@ body {
 
   .form__title {
     margin-bottom: 1.14rem;
-  }
-
-  .form__textarea {
-    width: 550px;
   }
 
   .form__btn {
@@ -1240,18 +1235,12 @@ body {
   }
 
   .footer__center {
-    width: 540px;
     margin-right: 0px;
   }
 
   .form {
     padding-left: 0;
   }
-
-  .form__textarea {
-    width: 540px;
-  }
-
 }
 
 @media (max-width: 900px) {
@@ -1299,7 +1288,6 @@ body {
     align-items: center;
     padding: 34px 40px 33px;
   }
-
 
   .about__icon {
     min-width: 114px;
@@ -1357,8 +1345,6 @@ body {
     padding-left: 50px;
   }
 
-
-
   .footer__logo {
     margin-bottom: 0.4rem;
   }
@@ -1377,7 +1363,6 @@ body {
 
   .form {
     padding: 0;
-    max-width: 540px;
     margin-bottom: 51px;
   }
 
@@ -1435,6 +1420,10 @@ body {
 
   .footer__container {
     padding-top: 2.5rem;
+  }
+
+  .footer__center {
+    max-width: 540px;
   }
 }
 
@@ -1544,20 +1533,21 @@ body {
   }
 
   .about-banner__text {
+    max-width: 290px;
     font-style: normal;
     font-size: 14px;
     line-height: 28px;
     letter-spacing: -0.012rem;
     color: var(--color-text);
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
   }
 
   .about__btn {
     font-size: 12px;
     line-height: 15px;
     color: var(--accent-color);
-    padding: 10px 42px 12px 43px;
+    padding: 10px 42px 11px 43px;
     border: 2px solid var(--accent-color);
     transition-property: background-color, color, border;
     transition-duration: .2s;
@@ -1592,13 +1582,13 @@ body {
   }
 
   .about__item:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   .about__icon {
     min-width: 64px;
     height: 49px;
-    margin-bottom: 13px;
+    margin-bottom: 12px;
   }
 
   .about__icon-top {
@@ -1617,7 +1607,7 @@ body {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
   }
 
   .about-text__descr {
@@ -1638,11 +1628,15 @@ body {
   }
 
   .tabs {
-    margin-bottom: 4px;
+    margin-bottom: 12px;
   }
 
   .tabs__item:not(:last-child) {
     margin-right: 40px;
+  }
+
+  .tabs__item, .tabs-item__btn {
+    max-width: 45px;
   }
 
   .tabs-item__btn {
@@ -1657,7 +1651,7 @@ body {
   .tab__title {
     font-weight: 600;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 1.62rem;
   }
 
   .tab__descr {
@@ -1688,7 +1682,12 @@ body {
     letter-spacing: 0.001rem;
   }
 
+  .btn-left__link {
+    max-width: 80px;
+  }
+
   .btn-right__link {
+    max-width: 60px;
     font-weight: 400;
     letter-spacing: -0.005rem;
   }
@@ -1696,7 +1695,7 @@ body {
   .tab-content__image {
     background-image: url(../img/how-we-work-1-320.jpg);
     min-height: 160px;
-    margin-bottom: 17px;
+    margin-bottom: 18px;
   }
 
   /* questions */
@@ -1713,7 +1712,7 @@ body {
   .questions-item__text {
     margin-right: 17px;
     padding-top: 31px;
-    padding-bottom: 28px;
+    padding-bottom: 27px;
     max-width: 245px;
     font-weight: 600;
     font-size: 14px;
@@ -1744,6 +1743,7 @@ body {
   /* footer */
   .footer__container {
     padding-top: 30px;
+    align-items: center;
   }
 
   .footer__descr {
@@ -1785,19 +1785,20 @@ body {
   }
 
   .form__title {
+    max-width: 290px;
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 0.98rem;
   }
 
   .form__edit {
+    width: 290px;
     font-size: 14px;
     line-height: 32px;
     padding: 14px 20px;
   }
 
   .form__textarea {
-    width: 290px;
     margin-bottom: 25px;
   }
 
